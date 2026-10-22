@@ -25,7 +25,7 @@ export class NumeroDobleComponent implements OnInit {
 
   goToHome(): void {
     this._router.navigate(['/']);
-  }
+  } 
 
   ngOnInit(): void {
     this._activateRoute.params.subscribe((parametros: Params) => {

@@ -1,0 +1,7 @@
+<ul id="menuMult">
+    @for (num of randNum; track num) {
+    <li>
+        <a [routerLink]="['/tabla', num]">Tabla del {{num}}</a>
+    </li>
+    }
+</ul>
